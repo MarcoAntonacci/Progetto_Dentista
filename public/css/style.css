@@ -1,0 +1,49 @@
+*{font-family: 'Montserrat', sans-serif;
+}
+
+
+:root {
+
+    --main-color:#80BFCC;
+    --accent-color:#2FA956;
+    --black:#060d0f;
+    --white:#F0F8F9;
+}
+
+h1,h2,h3,h4,h5 {
+    color: var(--black);
+}
+
+.navbar-color {
+
+   background-color:#2fa95696 ;
+   position: fixed;
+   top: 0px;
+   width: 100%;
+   z-index: 1000;
+   display: flex;
+   justify-content: center;
+}
+
+.a-color {
+color: var(--white) ;
+
+}
+
+
+.a-color:hover {
+    color: var(--main-color);
+    transform: scaleY(1.1);
+    transition: ease-in-out 0.5s;
+    }
+    
+
+
+    .masthead {
+        height: 100vh;
+        min-height: 500px;
+        background: linear-gradient(90deg, rgba(57, 175, 159, 0.589) 0%, rgba(122, 185, 194, 0.795) 50%, rgba(147, 221, 217, 0.849) 100%) , url(https://images.unsplash.com/photo-1609207825181-52d3214556dd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
