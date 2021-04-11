@@ -13,7 +13,7 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
-          <h1 class="fs-1 fw-bold">Studio Dentistico Boccasana</h1>
+          <h1 class="display-3 fw-bold">Studio Dentistico Boccasana</h1>
           <p class="lead fs-3">Viale xxxxxx   Numero di telefono: xxxxx </p>
         </div>
       </div>
@@ -39,7 +39,31 @@
 
   
 
+   <div class="container-fluid mt-5 border-success border-top">
+    <h2 class="fs-2 my-4 ">Orari</h2>
+      <div class="row">
+          <div class="col-12 col-md-6">
+              
+             <p>Lunedì</p> 
+             <p>Martedì</p>
+             <p>Mercoledì</p>
+             <p>Giovedì</p>
+             <p>Venerdì</p>
+             <p>Sabato</p>
+             <p>Domenica</p>
 
+          </div>
+          <div class="col-12 col-md-6">
+            <p>9:30 - 13:00</p> 
+            <p>9:30 - 13:00</p>
+            <p>9:30 - 13:00</p>
+            <p>9:30 - 13:00</p>
+            <p>9:30 - 13:00</p>
+            <p>9:30 - 13:00</p>
+            <p>Riposo</p>
+          </div>
+      </div>
+  </div>
 
 
 

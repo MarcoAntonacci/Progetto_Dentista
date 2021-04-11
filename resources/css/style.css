@@ -20,9 +20,7 @@ h3,h4 {
 
 .navbar-color {
 
-   background-color:#2fa95696 ;
-   position: fixed;
-   top: 0px;
+   background-color:#2fa95696;
    width: 100%;
    z-index: 1000;
    display: flex;
@@ -46,6 +44,7 @@ color: var(--white) ;
     color: var(--main-color);
     transform: scaleY(1.1);
     transition: ease-in-out 0.5s;
+    border-bottom: 3px solid white;
     }
     
 
@@ -75,10 +74,34 @@ color: var(--white) ;
         width: 100%;
     }
 
+    .custom-box1{
 
+        background-color: #80bfcc62;
+        width: 100%;
+        height: 80vh;
+        margin-top: 20px;
+      }
 
-    .btn-color {
-        color: #fff;
-        background-color: #2FA956;
-        border-color: #2FA956;
+      .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem;
+        transition: ease-in-out, 1s;
     }
+      .card:hover {
+        background: linear-gradient(to left, rgba(57, 175, 159, 0.589) 0%, rgba(122, 185, 194, 0.795) 50%, rgba(147, 221, 217, 0.849) 100%);
+        transition: ease-in-out, 1s;
+      }
+
+     
+      @media screen and (max-width: 767px) {
+        .custom-box1   { height: 210vh;
+          
+        }
+      }

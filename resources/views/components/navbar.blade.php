@@ -2,9 +2,9 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-color px-4  ">
+    <nav class="navbar navbar-expand-lg navbar-color px-4 sticky-top ">
         <div class="container-fluid">
-          <a class="navbar-brand a-color " href="{{route('home')}}"><i class="fas fa-tooth fs-3 mx "></i></a>
+          <a class="navbar-brand a-color" href="{{route('home')}}"><i class="fas fa-tooth fs-3 mx "></i></a>
           <button class="navbar-toggler a-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
                 <i class="fas fa-bars"></i>
