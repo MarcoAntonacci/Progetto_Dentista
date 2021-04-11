@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PublicController extends Controller
 {
@@ -88,5 +90,18 @@ public function contatti () {
     return view('contatti');
 }
 
+public function submit (Request $req){
+
+  $user=$req->input('user');
+  $message=$req->input('message');
+  $email=$req->input('email');
+  $contact= compact('user', 'message');
+
+  
+
+  Mail::to($email)->send(new ContactMail($contact));
+
+ return redirect(route('home'))->with('message', 'La tua richiesta è stata inoltrata');
+}
 
 }

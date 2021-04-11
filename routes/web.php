@@ -13,6 +13,8 @@ Route::get('/servizi', [PublicController::class, "servizi"])->name('servizi');
 
 Route::get('/contatti', [PublicController::class, "contatti"])->name('contatti');
 
+Route::post('/contatti/submit', [PublicController::class, "submit"])->name('contatti.submit');
+
 Route::get('/servizi/ortodonzia/{tipo}', [PublicController::class, "ortodonzia"])->name('ortodonzia');
 
 // Route::get('/servizi/chirurgia', [PublicController::class, "chirurgia"])->name('chirurgia');

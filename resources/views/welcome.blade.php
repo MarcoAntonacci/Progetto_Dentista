@@ -1,6 +1,11 @@
 <x-layout>
 
 
+    @if (session('message'))
+        <div class="alert alert-success mt-5 fw-bold fs-4">
+          {{ session ('message')}}
+        </div>
+    @endif
 {{-- HEADER --}}
 
   <!-- Full Page Image Header with Vertically Centered Content -->
