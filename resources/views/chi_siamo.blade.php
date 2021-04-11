@@ -9,11 +9,11 @@
     </div>
 
     
-    <div class="col-12 col-md-6 my-5 py-5">
-        <div class="row justify-content-between">
+   <div class="container-fluid">
+        <div class="row justify-content-center">
             @foreach ($chi_siamo as $persona)
            
-        <div class="col-12 col-md-6 ">
+            <div class="col-12 col-md-5 mx-5">
                 <x-card
                immagine="{{$persona['immagine']}}"
                nome="{{$persona['nome']}}"
@@ -24,10 +24,10 @@
                 
                 />
 
+            </div>
+            @endforeach
         </div>
-        @endforeach
     </div>
-      </div>
   </div>
   
 

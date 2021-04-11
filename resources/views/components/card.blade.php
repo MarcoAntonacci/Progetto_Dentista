@@ -5,11 +5,11 @@
 
             
         
-<div class="card mx-3 my-3 text-center " style="width: 18rem;">
-           <img src="{{$immagine}}" class="card-img img-size" alt="">
+<div class="card mx-3 my-3 text-center border-2 border-success " style="width: 25rem;">
+           <img src="{{$immagine}}" class="card-img rounded-circle" alt="">
             <div class="card-body ">
-                <h5 class="card-title">{{$nome}}</h5>
-                <h5 class="card-text">{{$cognome}}</h5>
-                <p class="card-text">{{$descrizione}}</p>
+                <h5 class="card-title fs-5">{{$nome}}</h5>
+                <h5 class="card-text fs-5">{{$cognome}}</h5>
+                <p class="card-text fs-5">{{$descrizione}}</p>
             </div>
 </div>    

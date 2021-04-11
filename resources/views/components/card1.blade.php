@@ -5,17 +5,18 @@
 
             
         
-<div class="card mx-3 my-3 text-center " style="width: 18rem;">
-           <img src="{{$immagine}}" class="card-img img-size" alt="">
+<div class="card mx-3 my-3 text-center border-2 border-success " style="width: 25rem;">
+           <img src="{{$immagine}}" class="card-img rounded-circle" alt="">
             <div class="card-body ">
-                <h5 class="card-title">{{$tipo}}</h5>
-                <p class="card-text">{{$spiegazione}}</p>
+                <h5 class="card-title fs-5">{{$tipo}}</h5>
+                <p class="card-text fs-5">{{$spiegazione}}</p>
                
                 @if (Route::currentRouteName() == 'servizi')
-                <a href="{{route('ortodonzia',['tipo'=>$tipo])}}" class="btn btn-primary">Scopri di più...</a> 
+                <a href="{{route('ortodonzia',['tipo'=>$tipo])}}" class="btn btn-success">Scopri di più</a> 
+               
                
                 @else
-               <a href="{{route('servizi')}}"class="btn btn-primary ">Torna Indietro</a>
+               <a href="{{route('servizi')}}"class="btn btn-success ">Torna Indietro</a>
                 @endif
                 
            

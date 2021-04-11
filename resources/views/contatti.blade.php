@@ -3,7 +3,7 @@
 <div class="container my-5 py-5">
     <div class="row">
         <div class="col-12">
-            <h1> Form di contatti</h1>
+            <h1>Form di contatti</h1>
         </div>
         <div class="col-12 col-md-6">
             <form method="POST" action="{{route('contatti.submit')}}">
@@ -21,7 +21,7 @@
                   <textarea name="message" id="exampleInputPassword1" cols="60" rows="5"></textarea>
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Invia</button>
+                <button type="submit" class="btn btn-success">Invia</button>
             </form>
         </div>
     </div>

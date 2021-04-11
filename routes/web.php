@@ -17,7 +17,7 @@ Route::post('/contatti/submit', [PublicController::class, "submit"])->name('cont
 
 Route::get('/servizi/ortodonzia/{tipo}', [PublicController::class, "ortodonzia"])->name('ortodonzia');
 
-// Route::get('/servizi/chirurgia', [PublicController::class, "chirurgia"])->name('chirurgia');
+
 
 // Route::get('/servizi/protesi', [PublicController::class, "protesi"])->name('protesi');
 
