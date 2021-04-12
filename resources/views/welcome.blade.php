@@ -36,36 +36,23 @@
        </div>
    </section>
 
+   <section class="container my-5">
+     <div class="row">
+       <div class="col-12 col-md-5 mx-3">
+         <div class="custom-box2"></div>
+         <img src="https://images.unsplash.com/photo-1612708771321-1cfe5ce5e106?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" class="img-fluid mt-3 img-position">
+       </div>
+       <div class="col-12 col-md-5 mx-3">
+         <h2 class="fs-2 fw-bold mt-3">Ci piace vederti sorridere</h2>
+         <p class="fs-5">Lo studio dentistico Boccasana si avvale delle migliori tecnologie e innovazioni, con esperienza e professionalità, nel rispetto del sorriso naturale di ogni paziente.</p>
+         <a href="{{route('servizi')}}" class="btn btn-success rounded-pill">Scopri i nostri servizi</a>
+       </div>
+     </div>
+   </section>
 
   
 
-   <div class="container-fluid mt-5 border-success border-top">
-    <h2 class="fs-2 my-4 ">Orari</h2>
-      <div class="row">
-          <div class="col-12 col-md-6">
-              
-             <p>Lunedì</p> 
-             <p>Martedì</p>
-             <p>Mercoledì</p>
-             <p>Giovedì</p>
-             <p>Venerdì</p>
-             <p>Sabato</p>
-             <p>Domenica</p>
-
-          </div>
-          <div class="col-12 col-md-6">
-            <p>9:30 - 13:00</p> 
-            <p>9:30 - 13:00</p>
-            <p>9:30 - 13:00</p>
-            <p>9:30 - 13:00</p>
-            <p>9:30 - 13:00</p>
-            <p>9:30 - 13:00</p>
-            <p>Riposo</p>
-          </div>
-      </div>
-  </div>
-
-
+   
 
 
 

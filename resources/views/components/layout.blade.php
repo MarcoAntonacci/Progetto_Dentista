@@ -20,6 +20,7 @@
   <body>
     <x-navbar></x-navbar>
     {{$slot}}
+    
     <x-footer></x-footer>
     <!-- Optional JavaScript; choose one of the two! -->
 

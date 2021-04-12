@@ -21,7 +21,7 @@
                   <textarea name="message" id="exampleInputPassword1" cols="60" rows="5"></textarea>
                 </div>
                 
-                <button type="submit" class="btn btn-success">Invia</button>
+                <button type="submit" class="btn btn-success rounded-pill">Invia</button>
             </form>
         </div>
     </div>
