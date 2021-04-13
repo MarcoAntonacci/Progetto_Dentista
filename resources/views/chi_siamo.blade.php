@@ -1,16 +1,11 @@
 <x-layout>
 
-    <div class="container-fluid my-5">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="my-5 text-center fw-bold fs-1">Il nostro fantastico team</h2>
-            </div>
-        </div>
-    </div>
-
+   
     
    <div class="container-fluid">
-        <div class="row justify-content-center">
+    
+        <div class="row justify-content-center background-img">
+          <h2 class="my-5 text-center fw-bold fs-1">Il nostro fantastico team</h2>  
             @foreach ($chi_siamo as $persona)
            
             <div class="col-12 col-md-5 mx-5">
@@ -30,10 +25,11 @@
     </div>
   </div>
   
-  <h2 class="fs-1 my-5 text-center fw-bold">Dicono di noi</h2>
-  <section class="container-fluid custom-box1">
-      
+  
+  <section class="container-fluid custom-box1 mt-5">
+    
       <div class="row mx-5 ">
+        <h2 class="fs-1 my-5 text-center fw-bold mb-4">Dicono di noi</h2>
           <div class="col-12 col-md-4 ">
               <img src="https://www.dentista.tv/wp-content/uploads/2017/06/Gloria-180x180.png" alt="" class="img-fluid rounded-circle mt-5">
             <p class="mt-5">Ho avuto dei problemi ai denti un po’ di tempo fa; carie, ecc… ad un certo punto, parlando con delle amiche, ho scoperto Dentista.tv. Ho fatto una visita e abbiamo risolto tutti i problemi!</p>
@@ -50,6 +46,8 @@
           <h5>Lorenzo</h5>
         </div>
       </div>
+
+      
   </section>
 
 

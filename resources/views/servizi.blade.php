@@ -1,18 +1,11 @@
 <x-layout>
 
-    <div class="container-fluid my-5">  
     
-    <div class="row">
-        
-        <div class="col-12">
-            <h2 class="my-5 fw-bold fs-1 text-center">I nostri servizi</h2>
-        </div>
-    </div>
-    </div>
 
 
-    <div class="container-fluid">
+    <div class="container-fluid background-img">
         <div class="row justify-content-center">
+          <h2 class="my-5 fw-bold display-4 text-center">I nostri servizi</h2>
             @foreach ($servizi as $servizio)
            
         <div class="col-12 col-md-5">

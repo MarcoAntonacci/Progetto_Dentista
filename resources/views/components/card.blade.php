@@ -4,7 +4,7 @@
 
 
             
-        
+    
 <div class="card  my-3 text-center border-2 border-success" style="width: 22rem;">
            <img src="{{$immagine}}" class="card-img rounded-pill" alt="">
             <div class="card-body ">

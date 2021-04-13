@@ -1,6 +1,6 @@
  {{-- footer --}}
 
- <footer class="container-fluid footer mt-5">
+ <footer class="container-fluid footer mt-3">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">

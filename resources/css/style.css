@@ -99,6 +99,11 @@ color: var(--white) ;
         transition: ease-in-out, 1s;
       }
 
+      @media screen and (max-width: 767px) {
+        .custom-box  { height: 85vh;
+          
+        }
+      }
      
       @media screen and (max-width: 767px) {
         .custom-box1   { height: 210vh;
@@ -120,4 +125,14 @@ color: var(--white) ;
       .img-position {
         position: relative;
         bottom: 350px;
+      }
+
+      .img-size {
+        font-size: 10px;
+      }
+
+      .background-img{
+        background: linear-gradient(90deg, rgba(57, 175, 159, 0.589) 0%, rgba(122, 185, 194, 0.795) 50%, rgba(147, 221, 217, 0.849) 100%) , url(https://images.unsplash.com/photo-1598256989800-fe5f95da9787?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
       }

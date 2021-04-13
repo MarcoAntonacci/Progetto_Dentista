@@ -1,26 +1,27 @@
 <x-layout>
 
 
-
-    <div class="col-12 col-md-8 my-5 py-5 mx-5">
-        <div class="row justify-content-center mx-3">
-       
+<div class="container-fluid background-img">
+    <div class="row justify-content-around">
+        <div class="col-6  my-5 py-5 ">
+         
+                    <x-card1
+                   tipo="{{$servizio['tipo']}}"
+                  spiegazione="{{$servizio['spiegazione']}}"
+                  immagine="{{$servizio['immagine']}}"
+                  
+                    
+                    
+                    
+                    />
+    
+            </div>
            
-        <div class="col-12 col-sm-6 col-xl-3 mx-5 ">
-                <x-card1
-               tipo="{{$servizio['tipo']}}"
-              spiegazione="{{$servizio['spiegazione']}}"
-              immagine="{{$servizio['immagine']}}"
-              
-                
-                
-                
-                />
-
         </div>
-       
+          </div>
     </div>
-      </div>
+</div>
+ 
 
       <h2 class="fs-1 my-4 mx-5">Altri Servizi</h2>
       <section class="container">

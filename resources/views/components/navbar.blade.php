@@ -11,7 +11,7 @@
             </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link a-color fw-bold" href="{{route('chi_siamo')}}">Chi siamo</a>
               </li>
